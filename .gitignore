@@ -1,0 +1,23 @@
+# 备份与临时文件
+*.bak
+*.bak-*
+*~
+
+# 运行时产物
+*.log
+nova.log
+nova-boot.log
+nocharge.log
+battemp.log
+.nova/
+
+# 本地配置（可能含设备序列号、局域网地址）
+.env
+config.local.sh
+device.local.sh
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
